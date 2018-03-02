@@ -1,0 +1,40 @@
+
+
+
+form{
+  width:440px;
+  padding:25px;
+  margin:auto;
+  border:5px solid black;
+  border-radius:15px 15px;
+  background-color: black;
+  }
+#input{
+  border: none;
+
+
+}
+#res{
+   border: none;
+   text-align: right;
+ 
+}
+
+
+h2{
+  text-align: center;
+}
+.res{
+  margin-top:0px;
+}
+ input{
+  background:black;
+  color:white;
+  font-size:15px;
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-left:19px;
+  padding-right:19px;
+  margin:6px;
+  border: 1px solid blue;
+  }

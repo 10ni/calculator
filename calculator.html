@@ -1,0 +1,67 @@
+ <html>
+  <head>
+      <title>My Calculator</title>
+        <link rel="stylesheet" type="text/css" href="calulator.css">
+       <script src="calfunctions.js"></script>
+  </head>
+  <body>
+      <h2>TENI'S SCIENCIFIC CALCULATOR </h2>
+     <form name="calc" >
+
+        <table cellspacing="0" cellpaddinh="1">
+          <table cellspacing="0" cellpadding="1">
+            <tr>
+            <td COLSPAN="5" ><input NAME="display" id="input" VALUE="0" SIZE="44" MAXLENGTH="25" readonly></td>
+            
+            </tr>
+            <tr>
+              <td COLSPAN="5" ALIGN="center"><input NAME="output" id="res" VALUE="0" SIZE="44" MAXLENGTH="25"   readonly ></td>
+            </tr>
+            <tr>                                  
+            <td align="center"><input type="button" value="Clear" onclick="deletedisplay(this.form)" ></td>
+            <td align="center" colspan="2"><input type="button" value="      Backspace     " onclick="backspace(this.form)"></td>
+            <td align="center" colspan="2"><input type="button" value="           Enter          " NAME="Enter" ONCLICK=" compute(this.form) "></td>
+            </tr> 
+          <tr>
+              <td align="center"><input type="button" onclick="addno( '^')" value=" exp "></td>
+              <td align="center"><input type="button" onclick="addno('7')" value="  7 "></td>
+              <td align="center"><input type="button" onclick="addno('8')" value="  8 "></td>
+              <td align="center"><input type="button" onclick="addno('9')" value="  9  "></td>
+              <td align="center"><input type="button" onclick="addno('/')" value=" / "  onclick="addChar(this.form.display, '/')"></td>
+              
+          </tr>
+           <tr>
+              <td align="center"><input type="button" onclick="addno('')" value="  In  "></td>
+              <td align="center"><input type="button" onclick="addno('4')" value=" 4 "></td>
+              <td align="center"><input type="button" onclick="addno('5')" value= "  5 "></td>
+              <td align="center"><input type="button" onclick="addno('6')" value="  6  "></td>
+              <td align="center"><input type="button" onclick="addno('*')" value=" * " onlick="addChar(this.form.display, '*')"></td>
+          </tr>
+           <tr>
+              <td align="center"><input type="button" onclick="sqrt()" value=" sqrt "></td>
+              <td align="center"><input type="button" onclick="addno('1')"  value="  1 "></td>
+              <td align="center"><input type="button" onclick="addno('2')"value="  2 "></td>
+              <td align="center"><input type="button" onclick="addno('3')" value="  3  "></td>
+              <td align="center"><input type="button" onclick="addno('-')" value="  - " onclick="addChar(this.form.display, '-')"></td>
+           <tr>
+               <td align="center"><input type= "button" onclick="addno('^2')"  value="  sq  "></td>
+               <td align="center"><input type= "button" onclick="addno('0')"  value="  0 "></td>
+               <td align="center"><input type= "button" onclick="addno('.')"  value="  .  "></td>
+               <td align="center"><input type= "button" onclick="addno('+')"  value=" +  " onclick="addChar(this.form.display, '+')"></td>
+               <td align="center"><input type= "button" onclick="log()"  value="log"> </td>
+            </tr>
+            <tr>
+               <td align="center"><input type= "button" onclick="openbra(this.form)"  value="   (   "> </td>
+               <td align="center"><input type= "button" onclick="sin()"  value="sin"></td>
+               <td align="center"><input type= "button" onclick="cos()"  value="cos"></td>
+              
+               <td align="center"><input type= "button" onclick="tan()"  value="tan"></td>
+               <td align="center"><input type= "button" onclick="closebra(this.form)"  value="  )  "> </td>
+            </tr>
+
+        </table>
+               
+    </form>
+  </body>
+</html>
+s
